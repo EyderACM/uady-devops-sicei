@@ -7,22 +7,22 @@ const students = [
   {
     id: 1,
     fullName: "Eyder Concha",
-    age: 21,
+    code: "A12312312332",
   },
   {
     id: 2,
     fullName: "Juan Perez",
-    age: 21,
+    code: "A12312312332",
   },
   {
     id: 3,
     fullName: "José Luis",
-    age: 25,
+    code: "A12312312332",
   },
   {
     id: 4,
     fullName: "Mateo Aguilar",
-    age: 29,
+    code: "A12312312332",
   },
 ];
 
