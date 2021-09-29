@@ -1,9 +1,4 @@
-const express = require("express");
-
-const PORT = 8080;
-const HOST = "0.0.0.0";
-
-const students = [
+export default [
   {
     id: 1,
     fullName: "Eyder Concha",
@@ -25,11 +20,3 @@ const students = [
     code: "A12312312332",
   },
 ];
-
-const app = express();
-app.get("/students", (req, res) => {
-  res.json().status(200).send(students);
-});
-
-app.listen(PORT, HOST);
-console.log(`Running on ${PORT}`);
